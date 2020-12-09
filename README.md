@@ -58,7 +58,7 @@ so that I have quick access to emails and GitHub profiles
 
 ## Repository
 - [Project Repo](https://github.com/AlheliMi/Team_Profile_Generator.git)
-- [Project Repo](https://alhelimi.github.io/Team_Profile_Generator/)
+- [Project Link](https://alhelimi.github.io/Team_Profile_Generator/)
 
 ## Questios, Coments, Sugestions
 If you have any questios about the repo, you can open an issue or contact directly to me at alhealhe72@hotmail.com. Or at gitHub AlheliMi.
