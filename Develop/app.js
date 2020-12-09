@@ -45,7 +45,7 @@ const questionsEmployee = [
 // generate and return a block of HTML including templated divs for each employee!
 
 function manager() {
-    console.log("Building your team");
+    console.log("Building your team, what type of member would you like to add?");
     inquirer.prompt(questionsEmployee).then(function(data){
         const manager = new Manager(data.nameManager, data.managerId, data.emailManager, data.officeNumber);
         teamMembers.push(manager);
@@ -146,6 +146,7 @@ function outputTeam() {
         fs.mkdirSync(OUTPUT_DIR)
     }
     fs.writeFileSync(outputPath, render(teamMembers), "utf-8");
+    console.log("SUCCESS... You have now created an HTML file for your team!!!!")
 }
 
 manager();
