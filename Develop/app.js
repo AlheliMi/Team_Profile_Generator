@@ -37,7 +37,7 @@ const questionsEmployee = [
         type: "input",
         name: "officeNumber",
         message: "What is the manager's office number?"
-    }
+    },
 ];
 
 // After the user has input all employees desired, call the `render` function (required
@@ -45,7 +45,7 @@ const questionsEmployee = [
 // generate and return a block of HTML including templated divs for each employee!
 
 function manager() {
-    console.log("Let's build your team");
+    console.log("Building your team");
     inquirer.prompt(questionsEmployee).then(function(data){
         const manager = new Manager(data.nameManager, data.managerId, data.emailManager, data.officeNumber);
         teamMembers.push(manager);
